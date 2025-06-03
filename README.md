@@ -43,7 +43,7 @@ backend/
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/your-backend-repo.git
+git clone https://github.com/Priyam280399/Charging_App_backend_one.git
 cd backend
 npm install
 
