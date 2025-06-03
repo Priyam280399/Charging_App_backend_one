@@ -46,3 +46,28 @@ backend/
 git clone https://github.com/your-username/your-backend-repo.git
 cd backend
 npm install
+
+Run the Server
+bash
+Copy
+Edit
+npm start
+The server will start on http://localhost:5000
+
+
+API Endpoints
+Auth Routes
+POST /auth/register – Register a new user
+
+POST /auth/login – Login user and return JWT
+
+Charger Routes (Protected)
+GET /chargers – Get all chargers
+
+POST /chargers – Add a new charger
+
+PUT /chargers/:id – Update a charger
+
+DELETE /chargers/:id – Delete a charger
+
+
