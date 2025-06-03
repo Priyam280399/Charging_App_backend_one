@@ -6,7 +6,7 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
-app.use('/auth', require('./routes/auth'));
-app.use('/chargers', require('./routes/chargers'));
+app.use('/api/auth', require('./routes/auth'));
+app.use('/api/chargers', require('./routes/chargers'));
 
 module.exports = app;
