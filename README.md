@@ -48,9 +48,6 @@ cd backend
 npm install
 
 Run the Server
-bash
-Copy
-Edit
 npm start
 The server will start on http://localhost:5000
 
